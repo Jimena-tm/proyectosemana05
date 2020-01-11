@@ -1,0 +1,47 @@
+/*GLOBALS*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: arial;
+}
+
+h2 {
+  font-family: helvetica;
+  color: #1F3F68;
+}
+
+p {
+  font-family: arial;
+}
+
+ul {
+  list-style: none;
+}
+
+/*HEADER*/
+
+header .contenedor{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px 30px;
+
+}
+
+
+.navegador li {
+  display: inline;
+  font-family: helvetica;
+  font-weight: bold;
+  padding: 12px;
+}
+
+.navegador a{
+  text-decoration: none;
+  color: #1F3F68;
+}
+
+
