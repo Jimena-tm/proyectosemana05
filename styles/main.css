@@ -27,7 +27,7 @@ header .contenedor{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 10px 30px;
+  padding: 30px 40px 30px;
 
 }
 
@@ -45,3 +45,23 @@ header .contenedor{
 }
 
 
+/*BANNER*/
+.banner {
+  position: relative;
+  text-align: center;
+}
+
+.titulo, 
+.texto {
+  position: absolute;
+  width: 100%;
+  color: white;
+}
+
+.titulo {
+  bottom: 160px;
+}
+
+.texto {
+  bottom: 100px;
+}
