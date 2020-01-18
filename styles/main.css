@@ -1,5 +1,5 @@
 /*GLOBALS*/
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -10,7 +10,7 @@ h1 {
 
 h2 {
   font-family: helvetica;
-  color: #1F3F68;
+  color: #1f3f68;
 }
 
 p {
@@ -21,16 +21,23 @@ ul {
   list-style: none;
 }
 
-/*HEADER*/
+.width-layout {
+  width: 100%;
+  max-width: 940px;
+  margin: auto;
+}
 
-header .contenedor{
+.wrapper {
+  overflow: hidden;
+}
+
+/*HEADER*/
+header .contenedor {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 30px 40px 30px;
-
 }
-
 
 .navegador li {
   display: inline;
@@ -39,11 +46,10 @@ header .contenedor{
   padding: 12px;
 }
 
-.navegador a{
+.navegador a {
   text-decoration: none;
-  color: #1F3F68;
+  color: #1f3f68;
 }
-
 
 /*BANNER*/
 .banner {
@@ -52,7 +58,7 @@ header .contenedor{
   margin-bottom: 42px;
 }
 
-.titulo, 
+.titulo,
 .texto {
   position: absolute;
   width: 100%;
@@ -68,12 +74,11 @@ header .contenedor{
 }
 
 /*BUSCADOR*/
-
 .buscador {
   display: flex;
   justify-content: center;
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .buscador .lupa {
@@ -82,11 +87,89 @@ header .contenedor{
   top: 20px;
 }
 
-.buscador .searchtexto{
+.buscador .searchtexto {
   position: absolute;
   left: 270px;
   top: 20px;
   font-family: arial;
-  color: #1F3F68;
+  color: #1f3f68;
   opacity: 0.6;
+}
+
+/*POPULAR*/
+.popular h4 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #356ead;
+  opacity: 0.8;
+  margin-bottom: 34px;
+}
+
+.articulo1 {
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.contenedor2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  margin-right: 20px;
+}
+
+.contenedor2 p {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.contenedor2 h2{
+  font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 46px;
+color: #1F3F68;
+}
+
+.articulo1 .articulo1-imagen {
+  width: 70%;
+}
+
+.datos-autor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.datos-autor .autor .p1{
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 24px;
+color: #1F3F68;
+}
+
+.datos-autor .autor .p2{
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: #1F3F68;
+opacity: 0.4;
+
+}
+
+.contenedor3 {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-column-gap: 20px;
 }
