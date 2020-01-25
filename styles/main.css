@@ -77,15 +77,19 @@ header .contenedor {
   margin-bottom: 50px;
 }
 
+.width-layout {
+  position: relative;
+}
+
 .buscador .lupa {
   position: absolute;
-  left: 230px;
+  left: 20px;
   top: 20px;
 }
 
 .buscador .searchtexto {
   position: absolute;
-  left: 270px;
+  left: 50px;
   top: 20px;
   font-family: arial;
   color: #1f3f68;
