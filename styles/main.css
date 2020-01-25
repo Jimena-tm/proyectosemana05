@@ -13,10 +13,6 @@ h2 {
   color: #1f3f68;
 }
 
-p {
-  font-family: arial;
-}
-
 ul {
   list-style: none;
 }
@@ -108,6 +104,11 @@ header .contenedor {
   margin-bottom: 34px;
 }
 
+.popular .h4{
+  margin-top: 60px;
+  margin-left: 660px;
+}
+
 .articulo1 {
   display: flex;
   width: 100%;
@@ -172,4 +173,57 @@ opacity: 0.4;
   display: grid;
   grid-template-columns: 300px 300px 300px;
   grid-column-gap: 20px;
+
 }
+
+.contenedor3 p {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.contenedor3 h2 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 32px; 
+  letter-spacing: 0.04em; 
+  color: #1F3F68;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.datos-autor2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.articulo2 .parrafo,
+.articulo3 .parrafo,
+.articulo4 .parrafo {
+  margin-bottom: 30px;
+}
+
+.datos-autor2 .autor .p3 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px; 
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+
+.datos-autor2 .autor .p4 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px; 
+  letter-spacing: 0.04em; 
+  color: rgba(0, 0, 0, 0.4);
