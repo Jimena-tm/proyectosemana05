@@ -227,3 +227,134 @@ opacity: 0.4;
   line-height: 24px; 
   letter-spacing: 0.04em; 
   color: rgba(0, 0, 0, 0.4);
+
+}
+
+/*ALL ARTICLE*/
+
+.all-article h4{
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.04em;
+color: #356EAD;
+opacity: 0.8;
+margin-bottom: 34px;
+}
+
+.posts {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+
+.contenedor4 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.6); 
+  margin-left: 30px;
+  
+}
+
+.datos-autor3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 38px;
+}
+
+
+.datos-autor3 .autor .p5 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px; 
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+
+.datos-autor3 .autor .p6 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px; 
+  letter-spacing: 0.04em; 
+  color: rgba(0, 0, 0, 0.4);
+
+}
+
+/*TALK*/
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.talk {
+  background:  #316099;
+  border-radius: 0px 200px 0px 0px;
+  height: 420px;
+  display: flex;
+}
+
+.team {
+  max-width: 50%;
+
+}
+
+.buttom {
+  width: 50%;
+  text-align: right;
+}
+
+.buttom button{
+  background: #5A98D0;
+  border-radius: 10px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  padding: 12px 60px;
+  border: none;
+  
+}
+
+.talk h2 {
+font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}
+
+.talk p{
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+opacity: 0.6;
+}
+
+
+
